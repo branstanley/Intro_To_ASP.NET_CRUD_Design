@@ -1,0 +1,10 @@
+insert into animals (breed,weight,age) values('','10','8');
+insert into animals (breed,weight,age) values('Poodle','-10','8');
+insert into animals (breed,weight,age) values('Poodle','1000','8');
+insert into animals (breed,weight,age) values('Poodle','10','201');
+insert into animals (breed,weight,age) values('Poodle','10','-8');
+update animals set breed = '',weight='10',age='10' where id=1;
+update animals set breed = 'Poodle',weight='1000',age='10' where id=1;
+update animals set breed = 'Poodle',weight='-10',age='10' where id=1;
+update animals set breed = 'Poodle',weight='10',age='1000' where id=1;
+update animals set breed = 'Poodle',weight='10',age='-10' where id=1;

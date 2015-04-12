@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET", "ASP.NET\ASP.NET.csproj", "{E3615380-C8FE-42E6-9C56-8A6EB4134B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{D7C49171-D8A9-476F-A0D5-47DCAED2AF05}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "SandcastleDocs\Documentation.shfbproj", "{626DBBF8-C923-4680-9C8F-0D8D0E70B24B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3615380-C8FE-42E6-9C56-8A6EB4134B26} = {E3615380-C8FE-42E6-9C56-8A6EB4134B26}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A657DFCD-567A-4A48-8BA5-01AFC6FF320A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://branstanley.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Testing\\Testing.csproj
+		SccProjectName1 = Testing
+		SccLocalPath1 = Testing
+		SccProjectUniqueName2 = SandcastleDocs\\Documentation.shfbproj
+		SccProjectName2 = SandcastleDocs
+		SccLocalPath2 = SandcastleDocs
+		SccProjectUniqueName3 = ASP.NET\\ASP.NET.csproj
+		SccProjectName3 = ASP.NET
+		SccLocalPath3 = ASP.NET
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3615380-C8FE-42E6-9C56-8A6EB4134B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3615380-C8FE-42E6-9C56-8A6EB4134B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3615380-C8FE-42E6-9C56-8A6EB4134B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C49171-D8A9-476F-A0D5-47DCAED2AF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C49171-D8A9-476F-A0D5-47DCAED2AF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C49171-D8A9-476F-A0D5-47DCAED2AF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C49171-D8A9-476F-A0D5-47DCAED2AF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626DBBF8-C923-4680-9C8F-0D8D0E70B24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626DBBF8-C923-4680-9C8F-0D8D0E70B24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626DBBF8-C923-4680-9C8F-0D8D0E70B24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
